@@ -1,6 +1,6 @@
 PODS:
   - MJRefresh (3.4.3)
-  - PPCategoryKit (0.1.0):
+  - PPCategoryKit (0.1.1):
     - MJRefresh
     - SDWebImage
   - SDWebImage (5.6.0):
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
-  PPCategoryKit: 10d7c5c731e7403f712fb6435370367f0858c15b
+  PPCategoryKit: 9771684180774dde3d8909bf900fd2294e70a668
   SDWebImage: 21b19f56b4226cdfe3aefe4e6848dc43ed129a86
 
 PODFILE CHECKSUM: 3044ce84623d566ea6801c3db5f945d406a8bb14
