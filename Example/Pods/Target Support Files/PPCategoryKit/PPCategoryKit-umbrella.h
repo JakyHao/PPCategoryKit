@@ -10,13 +10,8 @@
 #endif
 #endif
 
-#import "UINavigationBar+handle.h"
-#import "UIViewController+CurrentViewController.h"
-#import "UIViewController+LoadCustomerNavigationBar.h"
+#import "UIImageView+PPImageView.h"
 #import "UIScrollView+WDScrollView.h"
-#import "WDBaseTableView.h"
-#import "WDCustomerNavigationBar.h"
-#import "YGTableViewCell.h"
 
 FOUNDATION_EXPORT double PPCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char PPCategoryKitVersionString[];
