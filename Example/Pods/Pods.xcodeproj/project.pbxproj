@@ -66,11 +66,11 @@
 		4AE51E320EE824317CFFF92883B2E145 /* Pods-PPCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5AF91BB3887332810872B04769C7C568 /* UIViewController+LoadCustomerNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LoadCustomerNavigationBar.m"; sourceTree = "<group>"; };
 		5BDCEA77C591E7406631ACB35D0B7DB2 /* Pods-PPCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5D1B841A527B4F8325CFB9FD6BE41375 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D1B841A527B4F8325CFB9FD6BE41375 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WDScrollView.m"; sourceTree = "<group>"; };
 		62E807385F8291035A9BF617DBD23BA8 /* PPCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPCategoryKit-Info.plist"; sourceTree = "<group>"; };
-		64A4E4B1FAF1BCFE58EC685ECF490828 /* Pods_PPCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6621F72C75FA44029C38BD5102858956 /* PPCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PPCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		64A4E4B1FAF1BCFE58EC685ECF490828 /* Pods_PPCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPCategoryKit_Tests.framework; path = "Pods-PPCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6621F72C75FA44029C38BD5102858956 /* PPCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		693893FD621E9B273C29BB73619259EC /* WDBaseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDBaseTableView.h; sourceTree = "<group>"; };
 		698268B765940959CD92090AADACE01C /* YGTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YGTableViewCell.h; sourceTree = "<group>"; };
 		6D501511F3D1129D1371F218D4C12E67 /* Pods-PPCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -78,15 +78,15 @@
 		92FE2EB04D96B931C9AFF29522EF569C /* WDCustomerNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDCustomerNavigationBar.h; sourceTree = "<group>"; };
 		9756162146BC5F66A5FC0CEA8ACAF3CF /* Pods-PPCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		99F729BCD58927DEC5D8CF29D42646E7 /* YGTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YGTableViewCell.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4A8437C535006B9A99F192F55F8ADA3 /* Pods-PPCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
 		A6798BAAB39EC39FBEEFBA05B77071F0 /* WDCustomerNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDCustomerNavigationBar.m; sourceTree = "<group>"; };
 		A8FD2F1CE4B320F737A59943CFD8EBEA /* Pods-PPCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
 		ACA057F5D2F4A7B249A2870176018C94 /* PPCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPCategoryKit-dummy.m"; sourceTree = "<group>"; };
-		AD3D1DF51745DC8E7BF9F40DA8B781DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AD3D1DF51745DC8E7BF9F40DA8B781DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B544880C7699154E6CE9C54AE0B2C9B5 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
-		BA4841D7406D26371058CA11BB40C8AC /* Pods_PPCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3481C0CB6E8171D9FDA1698A075DEB7 /* PPCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4841D7406D26371058CA11BB40C8AC /* Pods_PPCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPCategoryKit_Example.framework; path = "Pods-PPCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3481C0CB6E8171D9FDA1698A075DEB7 /* PPCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPCategoryKit.framework; path = PPCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6262250722DE23A8B576D1B9425757F /* Pods-PPCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		CFD748AEED4BD4078BA2293E6855FC80 /* PPCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPCategoryKit.xcconfig; sourceTree = "<group>"; };
 		D8CB5AFF6AEF4F9D79C60FCF26F64447 /* Pods-PPCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -143,6 +143,7 @@
 				36A21081D8A578C2C1BFF9AC35FEE67D /* UIScrollView+WDScrollView.h */,
 				5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */,
 			);
+			name = WDBaseScrollView;
 			path = WDBaseScrollView;
 			sourceTree = "<group>";
 		};
@@ -597,7 +598,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
