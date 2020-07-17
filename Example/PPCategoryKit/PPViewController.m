@@ -7,9 +7,10 @@
 //
 
 #import "PPViewController.h"
-
+#import <WDBaseTableView.h>
 @interface PPViewController ()
-
+/*****************************/
+@property (nonatomic ,strong)  WDBaseTableView  *tableView;
 @end
 
 @implementation PPViewController

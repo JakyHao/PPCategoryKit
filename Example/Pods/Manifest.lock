@@ -1,0 +1,16 @@
+PODS:
+  - PPCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - PPCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  PPCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PPCategoryKit: ef7c9224a6489c5497d4240afc1d09f1a139f4cf
+
+PODFILE CHECKSUM: 3044ce84623d566ea6801c3db5f945d406a8bb14
+
+COCOAPODS: 1.8.4
