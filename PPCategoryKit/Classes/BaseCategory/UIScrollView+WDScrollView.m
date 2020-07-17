@@ -19,7 +19,7 @@
 
 static char refreshHeaderView_key,refreshFooterView_key;
 
-@implementation UIScrollView (WDScrollView)
+@implementation UIScrollView (PPScrollView)
 
 #pragma 添加属性set get 方法
 - (void)setRefreshHeaderView:(MJRefreshHeader *)refreshHeaderView {
@@ -48,13 +48,22 @@ static char refreshHeaderView_key,refreshFooterView_key;
         self.refreshHeaderView = [[MJRefreshHeader alloc] init];
     }
     
-//    self.refreshHeaderView.scrollView = self;
-//    self.refreshHeaderView.beginRefreshingBlock = ^(MJRefreshBaseView *refreshView) {
     self.refreshHeaderView.beginRefreshingCompletionBlock = ^{
         beginRefresh();
     };
-        
-//    };
+
+}
+
+- (void)beginHeaderRefresh:(void (^)(void))beginRefresh {
+    
+    [self addHeaderRefresh:beginRefresh];
+    [self.refreshHeaderView beginRefreshing];
+}
+
+- (void)beginFooterRefresh:(void (^)(void))beginRefresh {
+    
+    [self addFooterRefresh:beginRefresh];
+    [self.refreshFooterView beginRefreshing];
 }
 
 - (void)addFooterRefresh:(void (^)(void))beginRefresh {
@@ -67,6 +76,8 @@ static char refreshHeaderView_key,refreshFooterView_key;
         beginRefresh();
     };
 }
+
+
 
 - (void)endMjRefresh {
     if (self.refreshHeaderView) {

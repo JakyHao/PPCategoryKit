@@ -579,8 +579,6 @@
 		2C62065BB9F253D9E25E5FD41E9CF3CB /* WDBaseScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				36A21081D8A578C2C1BFF9AC35FEE67D /* UIScrollView+WDScrollView.h */,
-				5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */,
 			);
 			path = WDBaseScrollView;
 			sourceTree = "<group>";
@@ -842,6 +840,8 @@
 		A3D70B763E20A047C12F2327E2D9AAE6 /* BaseCategory */ = {
 			isa = PBXGroup;
 			children = (
+				36A21081D8A578C2C1BFF9AC35FEE67D /* UIScrollView+WDScrollView.h */,
+				5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */,
 				2C62065BB9F253D9E25E5FD41E9CF3CB /* WDBaseScrollView */,
 			);
 			name = BaseCategory;

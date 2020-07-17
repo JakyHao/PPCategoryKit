@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 //基于mjrefresh
-@interface UIScrollView (WDScrollView)
+@interface UIScrollView (PPScrollView)
 
 /// 添加下拉刷新
 /// @param beginRefresh 开始刷新回调
@@ -20,6 +20,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 添加上拉刷新
 /// @param beginRefresh 开始刷新回调
 - (void)addFooterRefresh:(void(^)(void))beginRefresh;
+
+
+/// 添加下拉刷新，并进入刷新状态
+/// @param beginRefresh 开始刷新回调
+- (void)beginHeaderRefresh:(void(^)(void))beginRefresh;
+/// 添加上拉刷新，并进入刷新状态
+/// @param beginRefresh 开始刷新回调
+- (void)beginFooterRefresh:(void(^)(void))beginRefresh;
 
 /// 结束刷新状态
 - (void)endMjRefresh;
