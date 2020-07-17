@@ -7,7 +7,6 @@
 //
 
 #import "UIScrollView+WDScrollView.h"
-//#import "MJRefresh.h"
 #import <objc/runtime.h>
 @interface UIScrollView ()
 
