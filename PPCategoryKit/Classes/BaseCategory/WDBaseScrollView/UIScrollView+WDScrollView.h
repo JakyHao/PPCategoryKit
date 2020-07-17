@@ -15,11 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 添加下拉刷新
 /// @param beginRefresh 开始刷新回调
-- (void)addHeaderRefresh:(void(^)())beginRefresh;
+- (void)addHeaderRefresh:(void(^)(void))beginRefresh;
 
 /// 添加上拉刷新
 /// @param beginRefresh 开始刷新回调
-- (void)addFooterRefresh:(void(^)())beginRefresh;
+- (void)addFooterRefresh:(void(^)(void))beginRefresh;
 
 /// 结束刷新状态
 - (void)endMjRefresh;
