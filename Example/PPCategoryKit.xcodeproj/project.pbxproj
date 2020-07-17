@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1D127ECDC474071AA89B7CAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		45E9F57EEF97A2DC84320908 /* PPCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PPCategoryKit.podspec; path = ../PPCategoryKit.podspec; sourceTree = "<group>"; };
+		45E9F57EEF97A2DC84320908 /* PPCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PPCategoryKit.podspec; path = ../PPCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59ED79E8B14FD25BC1121D66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CBC25C1003112E7174955A5 /* Pods-PPCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PPCategoryKit_Tests/Pods-PPCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PPCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,11 +327,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PPCategoryKit_Example/Pods-PPCategoryKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/PPCategoryKit/PPCategoryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPCategoryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

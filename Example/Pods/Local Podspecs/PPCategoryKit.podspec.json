@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PPCategoryKit/Classes/**/*"
+  "source_files": "PPCategoryKit/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }
