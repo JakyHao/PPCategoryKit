@@ -26,7 +26,6 @@
 		13611CB0839D7F8C3EFCB9F9ED5495BD /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 18ABEA4777A638481920ABC2722E8683 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17B09F3B3656EDCAB73DEF0E72682CD6 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0887375F9387F4F6524DBDCCC6DC9772 /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A2930330EB2343208871804A45E824E /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B37A1C21C0CCCC8CBC9CED50031717 /* UIImageView+HighlightedWebCache.m */; };
-		1AE321A86537FC3FF2EF54F4CBB20E76 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894BD3C0D6C9CC14F09347E56EF1446 /* ReplaceMe.m */; };
 		1BB8B1F61DE874EFAE03DF58069F3392 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = B423539956786C999BAE7C00C5BE3972 /* UIImage+ForceDecode.m */; };
 		1C0769BC60C0626F0795BCABBFB553AC /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF9B3A51A9855493716C594F69201D7 /* SDImageCoderHelper.m */; };
 		1D4F711B33D523139EDDC916DF5CF92C /* UIScrollView+WDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */; };
@@ -271,7 +270,6 @@
 		14454197520FA4419535676DF5CC8801 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		163336244A012FE43351BAF60D4E33B3 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		181C7D874B196C3C8FD84B99B58916E8 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
-		1894BD3C0D6C9CC14F09347E56EF1446 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PPCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		18ABEA4777A638481920ABC2722E8683 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		19472317E27826296D9FBA409FA3EA4A /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		19BD6AFFA87BD3173ADFF6669EE8060F /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
@@ -576,13 +574,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C62065BB9F253D9E25E5FD41E9CF3CB /* WDBaseScrollView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WDBaseScrollView;
-			sourceTree = "<group>";
-		};
 		308EE345C6742C22A2BEBD6F0483282B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -837,17 +828,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		A3D70B763E20A047C12F2327E2D9AAE6 /* BaseCategory */ = {
-			isa = PBXGroup;
-			children = (
-				36A21081D8A578C2C1BFF9AC35FEE67D /* UIScrollView+WDScrollView.h */,
-				5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */,
-				2C62065BB9F253D9E25E5FD41E9CF3CB /* WDBaseScrollView */,
-			);
-			name = BaseCategory;
-			path = PPCategoryKit/Classes/BaseCategory;
-			sourceTree = "<group>";
-		};
 		A6E331FDDC73ACD08D6B1E63097C314B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,8 +858,8 @@
 		AD8426FE4CC90BA3052018F53D642B0E /* PPCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				1894BD3C0D6C9CC14F09347E56EF1446 /* ReplaceMe.m */,
-				A3D70B763E20A047C12F2327E2D9AAE6 /* BaseCategory */,
+				36A21081D8A578C2C1BFF9AC35FEE67D /* UIScrollView+WDScrollView.h */,
+				5E59FA06905BADF4B95187FC3BAE4BDB /* UIScrollView+WDScrollView.m */,
 				D9529251BD21F990BC51273EEA6F31EC /* Pod */,
 				8B474B5AC0994F2418E4D6B9BC7CD854 /* Support Files */,
 			);
@@ -1283,7 +1263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A638A6C36AC4729F2797F33A681C78D /* PPCategoryKit-dummy.m in Sources */,
-				1AE321A86537FC3FF2EF54F4CBB20E76 /* ReplaceMe.m in Sources */,
 				1D4F711B33D523139EDDC916DF5CF92C /* UIScrollView+WDScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
